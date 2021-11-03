@@ -31,8 +31,7 @@ launchdtemplate='
 	<string>'${LABEL}'</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>'${SCRIPTPATH}'</string>
-		<string>'${SCRIPTNAME}'</string>
+	<string>'${SCRIPTPATH}'/'${SCRIPTNAME}'</string>
 	</array>
 	<key>WatchPaths</key>
 	<array>
