@@ -20,7 +20,7 @@ pattern='^\{?[A-Z0-9a-z]{8}-[A-Z0-9a-z]{4}-[A-Z0-9a-z]{4}-[A-Z0-9a-z]{4}-[A-Z0-9
 
 # If the result is a UUID we continue otherwise the script exit with error code 1
 if [[ "$PreBootUUID" =~ $pattern ]]; then
-    echo "true" 
+    echo "Installing files.." 
 
 launchdtemplate='
 <?xml version="1.0" encoding="UTF-8"?>
